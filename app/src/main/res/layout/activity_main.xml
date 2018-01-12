@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backapp"
+    tools:context="com.example.osvaldoairon.petshopapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp">
+
+        <ImageView
+            android:id="@+id/imgAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="@+id/imgAnimal"
+            android:layout_below="@+id/imgAnimal"
+            android:text=""
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/especie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="@+id/imgAnimal"
+            android:layout_below="@+id/nome"
+            android:text=""
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/raca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/especie"
+            android:text=""
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="false"
+
+            android:text=""
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nascimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/sexo"
+            android:text=""
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/informacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nascimento"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nascimento"
+            android:text=""
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

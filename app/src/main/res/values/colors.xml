@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="cobre">#D98719</color>
+    <color name="coral">#FF7F00</color>
+    <color name="LightWoord">#E9C2A6</color>
+    <color name="Preto">#000000</color>
+
+</resources>
